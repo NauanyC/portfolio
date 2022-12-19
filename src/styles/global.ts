@@ -10,10 +10,10 @@ export default createGlobalStyle`
   body{
     background: rgba(36, 36, 36, 0.9);
     color: rgba(229, 229, 229, 0.9);
-    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;   
   }
   body, input, button{
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
-  } 
+  }  
 `;

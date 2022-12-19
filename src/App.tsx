@@ -1,4 +1,5 @@
 import GlobalStyles from "./styles/global";
+import "./styles/App.css";
 
 const App = () => {
   return (
