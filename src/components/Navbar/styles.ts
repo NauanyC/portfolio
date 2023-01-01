@@ -10,7 +10,7 @@ export const Container = styled.ul`
   padding: 0px 40px;
 
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 
   li {
     margin: 25px;
