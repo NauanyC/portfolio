@@ -9,8 +9,18 @@ export const Container = styled.ul`
   justify-content: end;
   padding: 0px 40px;
 
+  font-weight: 700;
+  letter-spacing: 1px;
+
   li {
-    padding: 25px;
+    margin: 25px;
     list-style: none;
+  }
+
+  li.button-list-item {
+    color: var(--pink);
+    border: 2px solid var(--pink);
+    border-radius: 5px;
+    padding: 8px 14px;
   }
 `;

@@ -8,7 +8,7 @@ const Navbar: React.FC = () => {
       <li>Home</li>
       <li>About</li>
       <li>Projects</li>
-      <li>Contact</li>
+      <li className="button-list-item">Contact</li>
     </Container>
   );
 };
