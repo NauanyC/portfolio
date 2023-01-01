@@ -7,13 +7,21 @@ export default createGlobalStyle`
     box-sizing: border-box;
     outline:0;
   }
+
+  html {
+    --primary: rgba(36, 36, 36, 0.9);
+    --secondary: rgba(255, 197, 249, 0.9);
+    --white: rgba(229, 229, 229, 0.9);
+  }
+
   body{
-    background: rgba(36, 36, 36, 0.9);
-    color: rgba(229, 229, 229, 0.9);
+    background: var(--primary);
+    color: var(--white);
     -webkit-font-smoothing: antialiased;  
     height: 100vh;  
     width: 100vw;
   }
+
   body, input, button{
     font-family: "Poppins", sans-serif;
     font-size: 16px;
