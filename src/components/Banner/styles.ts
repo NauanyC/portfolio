@@ -19,6 +19,6 @@ export const Container = styled.div`
     width: 230px;
     height: 230px;
 
-    border: 10px solid var(--secondary);
+    border: 2px solid var(--secondary);
   }
 `;
