@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import img from "./../assets/weeb-image.png";
+import img from "./../../assets/weeb-image.png";
 
 export const Container = styled.div`
   display: flex;
