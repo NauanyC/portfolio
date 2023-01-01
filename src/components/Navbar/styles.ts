@@ -1,8 +1,16 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.ul`
+  height: 100px;
+  width: 100%;
+
   display: flex;
   align-items: center;
-  width: 100%;
-  height: 30px;
+  justify-content: end;
+  padding: 0px 40px;
+
+  li {
+    padding: 25px;
+    list-style: none;
+  }
 `;
