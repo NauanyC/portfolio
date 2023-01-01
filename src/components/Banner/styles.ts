@@ -16,8 +16,10 @@ export const Container = styled.div`
 
   img {
     border-radius: 50%;
-    width: 230px;
-    height: 230px;
+    width: 250px;
+    height: 250px;
+
+    margin-top: 50px;
 
     border: 2px solid var(--pink);
   }
