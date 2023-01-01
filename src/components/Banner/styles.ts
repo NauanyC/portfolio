@@ -1,9 +1,12 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 import img from "./../../assets/weeb-image.png";
 
 export const Container = styled.div`
   display: flex;
   align-items: center;
+
+  flex-direction: column;
+
   width: 100%;
   height: 100%;
 
