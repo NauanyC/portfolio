@@ -13,4 +13,12 @@ export const Container = styled.div`
 
   height: 800px;
   width: 100%;
+
+  img {
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+
+    border: 10px solid var(--secondary);
+  }
 `;
