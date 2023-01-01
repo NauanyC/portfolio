@@ -25,6 +25,6 @@ export default createGlobalStyle`
 
   body, input, button{
     font-family: "Poppins", sans-serif;
-    font-size: 16px;
+    font-size: 17px;
   }  
 `;
