@@ -9,6 +9,18 @@ const Banner: React.FC = () => {
     <Container>
       <Navbar />
       <img className="profile-pic" src={profile} />
+      <div>
+        {" "}
+        <h1>Nauany Costa</h1>
+        <p>
+          I'm a
+          <span>
+            {" "}
+            web developer and a cat lover <br />
+          </span>
+          from Minas Gerais, Brazil
+        </p>
+      </div>
     </Container>
   );
 };

@@ -25,4 +25,39 @@ export const Container = styled.div`
 
     border: 2px solid var(--pink);
   }
+
+  div {
+    width: auto;
+    padding-left: 60px;
+
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+      width: 100%;
+      font-weight: 900;
+      font-size: 40px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+
+      -webkit-flex: 1; /* Safari 6.1+ */
+      flex: 1;
+    }
+
+    p {
+      font-weight: 500;
+      width: 100%;
+
+      letter-spacing: 3px;
+
+      span {
+        font-weight: 800;
+        color: var(--pink);
+      }
+
+      -webkit-flex: 1; /* Safari 6.1+ */
+      flex: 1;
+    }
+  }
 `;
