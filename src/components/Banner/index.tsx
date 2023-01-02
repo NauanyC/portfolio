@@ -10,7 +10,6 @@ const Banner: React.FC = () => {
       <Navbar />
       <img className="profile-pic" src={profile} />
       <div>
-        {" "}
         <h1>Nauany Costa</h1>
         <p>
           I'm a
